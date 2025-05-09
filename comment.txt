@@ -1,0 +1,12 @@
+Comparison of Bag of Words, TF-IDF, and Word2Vec
+
+In this project, I compared three text vectorization methods: Bag of Words, TF-IDF, and Word2Vec. The goal was to represent product descriptions in a numerical way and see how they separate visually based on categories.
+
+Bag of Words give a very simple representation. It counts how many times each word appears, but doesn’t consider meaning or context. The results were okay, but the clusters weren’t very clear.
+
+TF-IDF improves on that by giving more weight to important words. The visualization was slightly better, and categories started to show more separation.
+
+Word2Vec clearly gave the best result. Since it captures the semantic relationships between words, the different product types were more clearly grouped in the plot.
+
+Overall, Word2Vec provided the most useful and accurate representation of the descriptions, and the PCA visualization looked more structured with it.
+
